@@ -54,7 +54,7 @@ function App() {
             </button>
             <span>{page}</span>
             <button onClick={_ => changePage('+')} disabled={page === 2}>
-              &gt; Next Page
+              Next Page &gt;
             </button>
           </div>
         </Fragment>
